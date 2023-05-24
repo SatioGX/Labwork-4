@@ -14,14 +14,14 @@ namespace Distance_Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int speed = int.Parse(textBox1.Text);
-            int hours = int.Parse(textBox2.Text);
-            int total = 0;
+            double speed = double.Parse(textBox1.Text);
+            double hours = double.Parse(textBox2.Text);
+            double total = 0;
 
-            for (int i = 0; i < hours; i++)
+            for (double i = 1; i <= hours; i++)
             {
                 total += speed;
-                listBox1.Items.Add(total.ToString());
+                listBox1.Items.Add($"Total hours: {i}\tTotal Distance: {total.ToString()}");
             }
 
 
@@ -40,6 +40,11 @@ namespace Distance_Calculator
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

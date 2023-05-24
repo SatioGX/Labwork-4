@@ -37,7 +37,7 @@ namespace Labwork_4_Q2
             for (int i = 1; i <= time; i++)
             {
                 listBox1.Items.Add($"{i}\t{number.ToString()}");
-                number = number*(1+increase);
+                number = number * (1 + increase);
             }
 
         }

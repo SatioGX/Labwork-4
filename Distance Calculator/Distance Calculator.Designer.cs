@@ -39,7 +39,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(406, 107);
+            textBox1.Location = new Point(245, 21);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 0;
@@ -47,7 +47,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(406, 156);
+            textBox2.Location = new Point(245, 70);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(100, 23);
             textBox2.TabIndex = 1;
@@ -56,7 +56,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(189, 111);
+            label1.Location = new Point(41, 24);
             label1.Name = "label1";
             label1.Size = new Size(39, 15);
             label1.TabIndex = 3;
@@ -66,7 +66,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(194, 156);
+            label2.Location = new Point(41, 70);
             label2.Name = "label2";
             label2.Size = new Size(85, 15);
             label2.TabIndex = 4;
@@ -74,7 +74,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(202, 373);
+            button1.Location = new Point(51, 287);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 5;
@@ -84,18 +84,19 @@
             // 
             // button2
             // 
-            button2.Location = new Point(357, 375);
+            button2.Location = new Point(245, 287);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 6;
             button2.Text = "Exit";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // listBox1
             // 
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(206, 215);
+            listBox1.Location = new Point(45, 129);
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(300, 139);
             listBox1.TabIndex = 7;
@@ -105,7 +106,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(407, 346);
             Controls.Add(listBox1);
             Controls.Add(button2);
             Controls.Add(button1);
